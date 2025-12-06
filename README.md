@@ -4,7 +4,7 @@ Official documentation for SexLab Patch Plus (SLP+), SexLab Scene Builder (SLSB)
 
 ## 🌐 View the Documentation
 
-Visit the live site: **[https://slp-community.github.io/sexlab-wiki/](https://slp-community.github.io/sexlab-wiki/)**
+Visit the live site: **[https://slp-community.github.io/SexLab-Wiki/](https://slp-community.github.io/SexLab-Wiki/)**
 
 ## 📖 Contents
 
