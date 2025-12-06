@@ -429,3 +429,42 @@ footer a:hover {
     padding: 0.5rem;
   }
 }
+
+/* ============================================
+   Papyrus Syntax Highlighting
+   ============================================ */
+
+.highlight .k  { color: #ff7b72; font-weight: bold; }  /* Keywords: if, function, etc */
+.highlight .kt { color: #79c0ff; }                     /* Type keywords: int, float, bool */
+.highlight .nc { color: #ffa657; }                     /* Class names */
+.highlight .nf { color: #d2a8ff; }                     /* Function names */
+.highlight .s  { color: #a5d6ff; }                     /* Strings */
+.highlight .s2 { color: #a5d6ff; }                     /* Double-quoted strings */
+.highlight .n  { color: #c9d1d9; }                     /* Names/identifiers */
+.highlight .m  { color: #79c0ff; }                     /* Numbers */
+.highlight .mf { color: #79c0ff; }                     /* Float numbers */
+.highlight .mi { color: #79c0ff; }                     /* Integer numbers */
+.highlight .c  { color: #8b949e; font-style: italic; } /* Comments */
+.highlight .c1 { color: #8b949e; font-style: italic; } /* Single-line comments */
+.highlight .cm { color: #8b949e; font-style: italic; } /* Multi-line comments */
+.highlight .o  { color: #ff7b72; }                     /* Operators */
+.highlight .nb { color: #79c0ff; font-weight: bold; }  /* Built-in functions */
+.highlight .kc { color: #79c0ff; font-weight: bold; }  /* Built-in constants: True, False, None */
+
+/* Code block styling */
+pre.highlight {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+code {
+  background-color: var(--color-bg-secondary);
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
