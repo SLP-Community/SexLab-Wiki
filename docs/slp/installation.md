@@ -24,6 +24,8 @@ A complete, step-by-step guide to installing SexLab P+.
 
 > **GOG Users:** Support is not guaranteed but will be investigated.
 
+> With the community maintaining SexLab Patch+ an "NG" build is in progress. This would make SLP+ version agnostic
+
 ### Required Mods
 
 Install these before SexLab P+:
@@ -42,7 +44,7 @@ Install these before SexLab P+:
 
 ### Step 1: Install Base SexLab
 
-Install the base SexLab Framework first. This is a precaution—P+ will overwrite everything except the logo.
+Install the base SexLab Framework first. This is a precaution as P+ will overwrite everything except the logo.
 
 ### Step 2: Install Mfg Fix NG
 
@@ -54,7 +56,9 @@ Download from one of these sources:
 - **Stable Release:** [LoversLab](https://www.loverslab.com/files/file/25318-sexlab-p/)
 - **WIP/Beta:** [Discord](https://discord.gg/JPSHb4ebqj)
 
-**Critical:** P+ must win ALL file conflicts. Let it overwrite every mod that touches base SexLab.
+**Critical:** P+ must win ALL file conflicts. Let it overwrite every mod that touches base SexLab.*
+
+*The only exception is HentaiRim for SLP+. It needs Papyrus functions that have yet to be added to the main scripts.
 
 ### Step 4: Install Animation Packs
 
@@ -75,12 +79,14 @@ SexLab P+
 
 > **Note:** Until authors grant redistribution permission, you must download both the original SLAL pack and its SLSB conversion separately.
 
+> **Note 2:** At the time of writing we are actively contacting SLAL pack authors to help them migrate/provide SLSB conversions.
+
 ### Step 5: Generate Behaviors
 
 Run your behavior generation tool:
 
-- **Nemesis** - Recommended for stability
-- **Pandora** - Alternative option (has known issues with Draugrs/Skeletons)
+- **Nemesis + FNIS** - Recommended for stability, albeit more tedious
+- **Pandora** - Alternative option (has known issues with Draugrs/Skeletons and potentially ZAZ)
 
 ### Step 6: Verify Installation
 
@@ -147,7 +153,7 @@ For optimal physics and body support:
 
 ### Settings
 
-P+ settings are **save-agnostic**—configure once and they apply to all saves.
+P+ settings are **save-agnostic**, configure once and they apply to all saves.
 
 Settings are stored in:
 ```

@@ -25,13 +25,12 @@ Mods that work well with SexLab P+ to enhance your experience.
 | Mod | Description |
 |-----|-------------|
 | [HIMBO](https://www.nexusmods.com/skyrimspecialedition/mods/46311) | Recommended male body with physics |
-| [SOS Light](https://www.loverslab.com/files/file/3692-sos-light-se/) | Alternative male body option |
 
 ### Genitals
 
 | Mod | Description |
 |-----|-------------|
-| [The New Gentleman (TNG)](https://www.nexusmods.com/skyrimspecialedition/mods/104215) | **Recommended** - Better implementation than SOS |
+| [The New Gentleman (TNG)](https://www.nexusmods.com/skyrimspecialedition/mods/104215) | **Recommended** - Modern implementation compared to SOS |
 | [Schlongs of Skyrim](https://www.loverslab.com/files/file/5355-schlongs-of-skyrim-se/) | Classic option, SLU+ has better support |
 
 ---
@@ -95,7 +94,7 @@ These mods are **built into** SexLab P+ and should NOT be installed:
 | [SLAS - Anim Searcher](https://www.loverslab.com/files/file/25350-slas-sexlab-anim-searcher/) | P+ has faster search |
 | [SLGP - Grass Patch](https://www.loverslab.com/files/file/25455-slgp-sexlab-grass-patch/) | Fixed natively in P+ |
 | [SL Smooth Expressions](https://www.loverslab.com/files/file/31585-sexlab-smooth-expressions/) | Built into P+ |
-| [SLU+ Utilities](https://www.loverslab.com/files/file/10316-osmelmc-mod-tweaks/) | Tries to achieve the same goal |
+| [SLU+ Utilities](https://www.loverslab.com/files/file/10316-osmelmc-mod-tweaks/) | Tries to achieve a similar goal |
 
 ---
 

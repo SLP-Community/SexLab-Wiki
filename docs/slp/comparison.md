@@ -51,10 +51,10 @@ SLP+ includes functionality that requires separate mods with vanilla SexLab:
 
 | Feature | Vanilla SexLab | SLP+ |
 |---------|---------------|------|
-| Separate Orgasm System | Requires [SLSO](https://www.loverslab.com/files/file/5929-sexlab-separate-orgasm-se/) | ✅ Built-in |
-| Fast Animation Search | Requires [SLAS](https://www.loverslab.com/files/file/25350-slas-sexlab-anim-searcher/) | ✅ Built-in |
-| Grass Clipping Fix | Requires [SLGP](https://www.loverslab.com/files/file/25455-slgp-sexlab-grass-patch/) | ✅ Built-in |
-| Smooth Expressions | Requires [Smooth Expressions](https://www.loverslab.com/files/file/31585-sexlab-smooth-expressions/) | ✅ Built-in |
+| Separate Orgasm System | Requires [SLSO](https://www.loverslab.com/files/file/5929-sexlab-separate-orgasm-se/) | Built-in |
+| Fast Animation Search | Requires [SLAS](https://www.loverslab.com/files/file/25350-slas-sexlab-anim-searcher/) | Made redundant |
+| Grass Clipping Fix | Requires [SLGP](https://www.loverslab.com/files/file/25455-slgp-sexlab-grass-patch/) | Made redundant |
+| Smooth Expressions | Requires [Smooth Expressions](https://www.loverslab.com/files/file/31585-sexlab-smooth-expressions/) | Built-in |
 
 ---
 

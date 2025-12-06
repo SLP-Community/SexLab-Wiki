@@ -33,7 +33,7 @@ Vanilla SexLab, while revolutionary for its time, has significant limitations:
 
 ## What P+ Fixes
 
-### 🚀 Extreme Performance
+### Improved Performance
 
 | Operation | Vanilla SL | SexLab P+ |
 |-----------|-----------|-----------|
@@ -43,19 +43,19 @@ Vanilla SexLab, while revolutionary for its time, has significant limitations:
 
 P+ completely rewrites the registration and animation systems for modern performance.
 
-### 📈 Unlimited Animations
+### Unlimited Animations
 
-No more hitting the 1000 animation wall. P+ removes the cap entirely.
+P+ removes the animation limit by itself. The only limit is Skyrim's engine.
 
 > **Note:** Mods using the legacy API (sslBaseAnimation) are still limited to accessing the first 1000 animations. Most modern mods work with the full library.
 
-### ⚙️ Automatic Everything
+### Automatic Everything
 
 - **Auto-registration** - Animations register at game startup, no MCM clicking
 - **Persistent settings** - MCM configuration is save-agnostic and auto-loads
 - **No maintenance** - Set it up once, forget about it
 
-### 🔧 Built-in Features
+### Built-in Features
 
 P+ includes functionality that previously required separate mods:
 
@@ -102,30 +102,28 @@ P+ uses a different settings system, so you'll need to reconfigure. However, onc
 
 ## What You Gain
 
-✅ **Performance** - Dramatically faster in all operations  
-✅ **Capacity** - Unlimited animation slots  
-✅ **Simplicity** - Fewer mods to manage  
-✅ **Modern features** - Rebuilt enjoyment/orgasm system  
-✅ **Active development** - Regular updates and support  
-✅ **Future-proof** - New animations release in SLSB format  
+**Performance** - Dramatically faster in all operations  
+**Capacity** - Unlimited animation slots  
+**Simplicity** - Fewer mods to manage  
+**Modern features** - Rebuilt enjoyment/orgasm system  
 
 ---
 
 ## What You Might Lose
 
-⚠️ **Some mod compatibility** - A few older mods don't work (see [Incompatible Mods](../incompatible-mods/))  
-⚠️ **Voice pack compatibility** - New voice engine requires P+ compatible packs  
-⚠️ **SLAL direct support** - Need conversion patches for animation packs  
+**Some mod compatibility** - A few older mods don't work (see [Incompatible Mods](../incompatible-mods/))  
+**Voice pack compatibility** - New voice engine requires P+ compatible packs  
+**SLAL direct support** - Need conversion patches for animation packs  
 
 ---
 
 ## Migration Checklist
 
-1. ✅ Backup your current setup (MO2 profile or Vortex snapshot)
-2. ✅ Check your critical mods against the [compatibility list](../incompatible-mods/)
-3. ✅ Download SLSB conversion patches for your animation packs
-4. ✅ Follow the [Installation Guide](../installation/)
-5. ✅ Test on a new save first
+1. Backup your current setup (MO2 profile or Vortex snapshot)
+2. Check your critical mods against the [compatibility list](../incompatible-mods/)
+3. Download SLSB conversion patches for your animation packs
+4. Follow the [Installation Guide](../installation/)
+5. Test on a new save first
 
 ---
 

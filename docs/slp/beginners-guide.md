@@ -7,17 +7,16 @@ parent: SexLab P+
 
 # Beginner's Guide
 
-New to SexLab? This guide will introduce you to the framework and get you started.
+New to SexLab Patch? This guide will introduce you to the framework and get you started.
 
 ---
 
 ## What is SexLab?
 
-**SexLab** is a modding framework for Skyrim that provides a foundation for adult content mods. Think of it like SKSE—it doesn't add content by itself, but enables other mods to add:
+**SexLab** is a modding framework for Skyrim that provides a foundation for adult content mods. By itself it only adds default animation packs and playing scenes with a debug spell. It's API however allows other mods to:
 
-- Animations and scenes
-- Story/quest content
-- Gameplay mechanics
+- Start animations and scenes
+- Integrate adult scenes into story/quest content
 - NPC interactions
 
 SexLab handles the technical complexity of positioning actors, playing animations, applying effects, and managing the overall experience.
@@ -33,7 +32,7 @@ SexLab handles the technical complexity of positioning actors, playing animation
 | Feature | Description |
 |---------|-------------|
 | **Performance** | Extremely fast animation registration and scene startup |
-| **No Limits** | Unlimited animation slots (vanilla caps at 1000) |
+| **No Limits** | Unlimited animation slots (default SexLab caps at 1000) |
 | **Modern Tech** | Uses SLSB instead of SLAL for animations |
 | **Built-in Features** | Includes functionality from SLSO, SLAS, and other addon mods |
 | **Automatic Settings** | MCM settings are save-game agnostic and auto-load |
@@ -46,7 +45,7 @@ SexLab handles the technical complexity of positioning actors, playing animation
 Animations are the visual content—the movements actors perform during scenes. These come in **animation packs** created by various authors.
 
 ### Animation Packs
-Collections of animations bundled together. With P+, these use the **SLSB format** instead of the older SLAL format.
+Collections of animations bundled together. P+ has moved from the old SLAL packs to SexLab Scene Builder (SLSB) packs. These have to either be converted from SLAL or made from scratch. A collection of automated conversions is available [here](link pending)
 
 ### Scenes/Threads
 A "scene" or "thread" is an active animation session. P+ can run multiple threads simultaneously.

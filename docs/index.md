@@ -12,13 +12,13 @@ Welcome to the official documentation for **SexLab Patch Plus (SLP+)** and relat
 
 <div class="grid-container">
   <div class="grid-item">
-    <h3>🚀 SexLab P+</h3>
+    <h3>SexLab P+</h3>
     <p>A complete overhaul of the SexLab Framework for Skyrim SE, featuring improved performance, unlimited animations, and modern features.</p>
     <a href="slp/quick-start/">Get Started →</a>
   </div>
   
   <div class="grid-item">
-    <h3>🛠️ SexLab Scene Builder</h3>
+    <h3>SexLab Scene Builder</h3>
     <p>The next-generation animation registration tool replacing SLAL. Convert and create animation packs with ease.</p>
     <a href="slsb/introduction/">Learn More →</a>
   </div>
@@ -54,9 +54,9 @@ Welcome to the official documentation for **SexLab Patch Plus (SLP+)** and relat
 
 | Version | Support Status |
 |---------|----------------|
-| Skyrim 1.6.1170 | ✅ Fully Supported |
-| Skyrim 1.5.97 | ⚠️ Limited Support |
-| Skyrim 1.6.640 | ❌ Unsupported |
+| Skyrim 1.6.1170 | Fully Supported |
+| Skyrim 1.5.97 | Limited Support |
+| Skyrim 1.6.640 | Unsupported |
 
 > **Note**: GOG support is not guaranteed but will be investigated.
 
