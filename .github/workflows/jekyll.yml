@@ -34,6 +34,10 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           working-directory: docs
+      
+      - name: Configure Bundler
+        working-directory: docs
+        run: bundle config set --local path vendor/bundle
           
       - name: Setup Pages
         id: pages

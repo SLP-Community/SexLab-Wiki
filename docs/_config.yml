@@ -21,6 +21,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - vendor
+  - node_modules
+  - .bundle
 
 # Collections for organizing mods
 collections:
