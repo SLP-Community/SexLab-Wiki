@@ -105,7 +105,7 @@ Already using the original SexLab Framework? See our comparison and migration gu
 ## Community & Support
 
 - **LoversLab Page**: [SexLab P+](https://www.loverslab.com/files/file/25318-sexlab-p/)
-- **Source Code**: [GitHub Repository](https://github.com/Scrabx3/SexLab/tree/animation)
+- **Source Code**: [GitHub Organization](https://github.com/SLP-Community)
 - **Discord**: [Join the Community](https://discord.gg/JPSHb4ebqj)
 
 ---

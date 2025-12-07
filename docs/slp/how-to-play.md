@@ -64,9 +64,10 @@ P+ features a completely rewritten enjoyment system that's more dynamic than van
 
 Instead of simple timers, enjoyment is calculated based on:
 
-1. **Stage Tags** - Each animation stage has tags indicating intensity
-2. **Interaction Types** - Physics detect penetration, grinding, handjobs, etc.
-3. **Actor Preferences** - Individual actors respond differently
+1. **Collision Interactions** - In-built 3D physics detection allows the system to be aware of penetration, grinding, handjobs, and other actions (as well as their intensity) among participating actors.
+2. **Stage Tags and Position Tags** - The system relies on stage tags as well as position tags, allowing it to detect nature of interactions and their intensity. This relies heavily on the comprehensive integration of tags from SLAnimStageLabels and HentaiRim in the SLSB conversions.
+3. **Actor Preferences** - Individual actors respond differently based on their arousal level, sexual preferences, sub/dom status, and relationship ranks.
+4. **User Interactions** - A highly configurable enjoyment minigame which offers additional enjoyment gain or reductions and has its own rewards and penalties.
 
 ### Interaction Detection
 
@@ -80,6 +81,8 @@ P+ uses 3D physics data to determine what's happening:
 | Handjob | Low gain |
 | Idle/positioning | Minimal gain |
 
+For a full list of supported interaction types and their relative effects on enjoyment's rate, see the Enjoyment section in `SexLab.ini`.
+
 ### Configuration Levels
 
 **MCM (In-Game - Recommended for most users)**
@@ -88,7 +91,7 @@ Your MCM preferences are automatically saved to `Settings.yaml` and persist acro
 
 **Advanced Configuration (SexLab.ini - For technical users)**
 
-For fine-tuning the framework's internal behavior (enjoyment rates, detection thresholds, physics sensitivity, etc.), edit:
+For fine-tuning the framework's internal behavior (enjoyment rates per interaction type, detection thresholds, physics sensitivity, etc.), edit:
 ```
 SKSE\Plugins\SexLab.ini
 ```
@@ -128,9 +131,9 @@ P+ supports multiple orgasm behaviors:
 
 | Mode | Description |
 |------|-------------|
-| **On Animation End** | Classic behavior, orgasm when scene ends |
-| **Scene Based** | Orgasm on final stage |
-| **Separate Orgasms** | Actors orgasm individually based on enjoyment |
+| **Legacy Mode** | Classic behavior; actors climax together when scene ends |
+| **Scene Based** | Actors climax individally, once an orgasm-tagged stage is reached, which is usually the last stage |
+| **Separate Orgasms** | Default behaviour; actors climax individually, based on enjoyment |
 
 Configure this in MCM under the orgasm settings.
 
@@ -141,9 +144,10 @@ Configure this in MCM under the orgasm settings.
 ### Starting Scenes
 
 Scenes can start through:
+- Spells added by the internal Match Maker (can be enabled from the MCM)
 - Other mods (quests, events, etc.)
-- Console commands
 - Spells/powers added by content mods
+- Console commands
 
 ### Managing Active Scenes
 
@@ -155,7 +159,6 @@ Scenes end when:
 - Timer expires
 - You press the end hotkey
 - Another mod ends the scene
-- All actors reach orgasm (in Separate Orgasm mode)
 
 ---
 

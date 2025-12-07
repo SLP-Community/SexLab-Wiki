@@ -26,7 +26,7 @@ Common issues and their solutions for SexLab P+.
    - SexLab P+ must win all SL conflicts
 
 3. **Run behavior generation**
-   - Use Nemesis or Pandora
+   - Use Pandore or Nemesis
    - Ensure it completes without errors
 
 4. **Check for file conflicts**
@@ -65,6 +65,10 @@ Common issues and their solutions for SexLab P+.
 3. **Check for mod conflicts**
    - Remove recently added mods and test
 
+4. **Reduce animation count**
+   - Total animation count should not exceed skyrim's engine limit
+   - Include both OAR and FNIS/Pandora registered animations in the count
+
 ---
 
 ## Runtime Issues
@@ -97,6 +101,7 @@ Common issues and their solutions for SexLab P+.
    
 2. **Filter settings**
    - Check MCM animation filter settings
+   - Check filter settings in `SexLab.ini`
    
 3. **Mod conflict**
    - Another mod may be overriding selection
@@ -146,6 +151,10 @@ Common issues and their solutions for SexLab P+.
    
 2. **Check for old SL versions**
    - Ensure no vanilla SL files remain
+
+3. **Open and close console menu**
+   - Bug in SexLab P+ furniture selection/menu logic
+   - Opening and closing any menu may help till it's fixed
 
 ---
 

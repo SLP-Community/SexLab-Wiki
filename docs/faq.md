@@ -112,19 +112,26 @@ Yes, but [The New Gentleman](https://www.nexusmods.com/skyrimspecialedition/mods
 ### What is the enjoyment system?
 
 P+ has a rewritten enjoyment system that:
-- Uses stage-specific tags
 - Detects interaction types via 3D physics
+- Uses stage-specific and position-specific tags
+- Responds to actor's arousal, sexuality, and relationship rank
 - Affects actors individually
 
-You can customize it via `SKSE\Plugins\SexLab.ini`. See the [Settings Reference](/slp/settings-reference/) for all available options.
+You can customize most features via the Enjoyment Settings tab in the MCM. For advanced users, additional options are available in `SKSE\Plugins\SexLab.ini`. See the [Settings Reference](/slp/settings-reference/) for all available options.
 
-### Are there widgets?
+### Are there enjoyment widgets?
 
-A stripped-down SLSO-style widget is available as an optional patch on the Discord.
+Widgets in the form of enjoyment bars are natively implemented in SexLab P+ and should be ample enough to indicate the enjoyment state of actors.
 
-### Is there a minigame?
+However, if the traditional SLSO-style widgets are preferred, a stripped-down version of the SLSO mod is available in the thread `SLPP Patches` in channel `dev-forum` on the Discord. As an additional feature, the SLSO widgets have been updated to support new features introduced in SexLab P+, such as pain and edging states, as well as physics/interaction detection.
 
-⚠️ **Planned feature (not yet available).** A minigame is planned for a future UI update.
+### Is there an enjoyment minigame?
+
+Yes, an enjoyment minigame has been implemented natively in the most recent iterations of SexLab P+. In its simplest form, it allows enjoyment to be increased or decreased through mouse clicks at a configurable cost to stamina or magicka.
+
+Once an actor's enjoyment exceeds 90, the minigame changes in nature and requires timed clicks (a UI update is still needed to visualize the time window) to gain enjoyment and maintain the edging state. This state allows enjoyment to exceed 100 without orgasm and without stamina costs, while also providing some buffs. However, penalties apply if the enjoyment increase hotkey is spammed too much, including the possibility of a ruined orgasm.
+
+The minigame feature is completely optional, as enjoyment gain through interaction/collision detection is sufficient and does not require the additional enjoyment provided by the minigame.
 
 ### Can I import my MCM settings?
 
@@ -141,7 +148,7 @@ P+ uses a different settings system. You'll need to reconfigure, but your settin
 | Papyrus scripts (.psc/.pex) | JSON source → compiled .slr files |
 | Manual MCM registration | Automatic at startup |
 | 1000 animation limit | Unlimited |
-| Slow | Near-instant |
+| Painfully slow | Near-instant |
 
 SLSB is an external tool that compiles JSON definitions into `.slr` (SexLab Registry) files.
 
@@ -153,7 +160,7 @@ Ideally yes, but the community provides conversions for popular packs.
 
 ### Can animations be tagged differently in SLSB?
 
-Yes, SLSB allows more detailed tagging including per-stage tags.
+Yes, SLSB allows more detailed tagging including per-stage and per-position tags.
 
 ---
 
@@ -162,12 +169,12 @@ Yes, SLSB allows more detailed tagging including per-stage tags.
 ### Why aren't my animations loading?
 
 1. Check `.slr` files are in `Data/SKSE/Plugins/SexLabRegistry/`
-2. Verify conversions are installed and winning conflicts
+2. Verify conversions with **matching versions** are installed and winning conflicts
 3. Make sure you ran behavior generation
 
 ### Why is the MCM empty?
 
-Wait 1-2 minutes after loading for MCM to populate. Also check SkyUI is installed.
+Wait 1-2 minutes after loading for MCM to populate. Also check SkyUI is installed. Test on a new game if all else fails.
 
 ### Why do I crash when starting scenes?
 
@@ -186,9 +193,9 @@ See [Troubleshooting](/troubleshooting/) for more help.
 - [Discord](https://discord.gg/JPSHb4ebqj) - Best for quick help
 - [LoversLab](https://www.loverslab.com/files/file/25318-sexlab-p/) - Forum discussions
 
-### Where can I report bugs?
+### How can I report bugs?
 
-Discord or LoversLab. Include:
+While making bug reports (either on Discord or LoversLab), make sure to include:
 - P+ version
 - Skyrim version
 - Steps to reproduce
@@ -222,4 +229,4 @@ See the [Settings Reference](/slp/settings-reference/) for details on SexLab.ini
 
 ### Is P+ open source?
 
-Yes. [GitHub Repository](https://github.com/Scrabx3/SexLab/tree/animation)
+Yes. [GitHub Organization](https://github.com/SLP-Community)

@@ -87,12 +87,12 @@ SLP+ includes functionality that requires separate mods with vanilla SexLab:
 
 ### SLP+ Built-in System
 - Completely rewritten enjoyment logic
-- Stage-specific tags drive enjoyment
 - 3D physics data detects interaction types
+- Stage-specific and position-specific tags drive enjoyment
 - Fully customizable via [Settings Reference](../settings-reference/)
 - SLSO events maintained for backwards compatibility
-- Widget support available as optional patch
-- Minigame planned for future update (not yet available)
+- Widget support available naively as well as through an optional patch
+- An optional and highly customizable minigame with its buffs and penalties
 
 ---
 

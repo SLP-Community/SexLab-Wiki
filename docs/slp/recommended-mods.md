@@ -50,10 +50,10 @@ Mods that work well with SexLab P+ to enhance your experience.
 
 | Mod | Description |
 |-----|-------------|
-| [Nemesis](https://www.nexusmods.com/skyrimspecialedition/mods/60033) | Behavior engine (recommended) |
-| [Pandora](https://www.nexusmods.com/skyrimspecialedition/mods/99445) | Alternative behavior engine |
+| [Pandora](https://www.nexusmods.com/skyrimspecialedition/mods/99445) | Recommended behaviour engine (a bit experimental) |
+| [Nemesis](https://www.nexusmods.com/skyrimspecialedition/mods/60033) | Alternative behavior engine (tedious; no creature support) |
 
-> **Note:** Pandora has known issues with Draugr and Skeleton animations.
+> **Note:** Pandora might have issues from time to time as it's being actively developed still. Try to use more stable versions of it from Nexus and seek support in the author's `ModForge` Discord community.
 
 ---
 

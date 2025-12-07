@@ -17,7 +17,7 @@ To convert SLAL packs quickly:
 1. Set up your development environment (see [Environment Setup](../environment-setup/))
 2. Place SLAL packs in `SLAL_Packs/` folder with correct structure
 3. Run `execute_convert_full.cmd`
-4. Collect converted `.slr` files from `SLSB_Outputs/`
+4. Collect converted outputs from `SLSB_Outputs/`
 5. Package and distribute
 
 ---
@@ -29,8 +29,8 @@ To convert SLAL packs quickly:
 Before starting, ensure you have:
 - The SLSB.Convert.Dev.Essentials downloaded and extracted
 - All FNIS tools installed (see [Environment Setup](../environment-setup/))
-- Latest hashes from `Automated.SLSB.Conversions` in `updated_slsb_jsons/`
-- SLAL packs to convert in `SLAL_Packs/` folder
+- Latest jsons from `Automated.SLSB.Conversions` in `updated_slsb_jsons/`
+- SLAL animation packs to convert in `SLAL_Packs/` folder
 
 ### Step 1: Organize Your Packs
 
@@ -56,84 +56,64 @@ SLAL_Packs/
 
 ### Step 2: Run the Batch Converter
 
-#### Windows
 1. Open File Explorer to your dev environment
 2. Double-click `execute_convert_full.cmd`
 3. The script runs automatically and processes all packs
 
-#### Linux/Mac
-```bash
-cd /path/to/dev/env
-python convert.py SLAL_Packs/ -o SLSB_Outputs/
-```
-
 ### Step 3: Collect Output Files
 
-After conversion completes, your `.slr` files are in `SLSB_Outputs/`:
+After conversion completes, your SLSB conversions will be generated in `SLSB_Outputs/`:
 
 ```
 SLSB_Outputs/
-├── BillyyCreatures.slr
-├── AnimationsByLeito.slr
-├── [other converted packs].slr
-└── manifest.txt              # Conversion report
+  └───conversions [yyyy.mm.dd_hh.mm.ss]
+        ├───[Pack Name 1]
+        |    ├───meshes
+        │    │     └───actors
+        │    │           └───[<actor>]
+        │    │                ├───animations
+        │    │                └───behaviors
+        │    └───SKSE
+        │          └───Sexlab
+        │                └───Registry
+        │                     └───Source
+        └───[Pack Name 2]
+             ├───meshes
+             │     └───actors
+             │           └───[<actor>]
+             │                ├───animations
+             │                └───behaviors
+             └───SKSE
+                   └───Sexlab
+                         └───Registry
+                              └───Source
 ```
 
 ### Step 4: Package for Users
 
-Create a mod folder for distribution:
+Create a mod / zip archive containing the output directories `meshes` and `SKSE` (including thier content) for each converted pack/module and distribute/publish the same.
 
-```
-MyPack_SLSB_Conversion/
-└── Data/
-    └── SKSE/
-        └── Plugins/
-            └── SexLabRegistry/
-                └── [PackName].slr
-```
-
-Users install this on top of the original SLAL pack (for meshes/assets).
+Users will install this on top of the original SLAL animation pack (which are needed for animation meshes/assets).
 
 ---
 
-## Understanding SLAL Structure
-
-An SLAL pack contains both animation definitions and compiled registration scripts:
-
-```
-MyAnimPack/
-├── meshes/                         # Animation files
-│   └── actors/
-│       └── character/
-│           └── animations/
-│               └── MyAnims/
-│                   ├── anim001_s1_a0.hkx
-│                   ├── anim001_s1_a1.hkx
-│                   └── [animation files]
-├── Source/Scripts/                 # Papyrus source (for reference)
-│   └── SLAL_MyAnimPack.psc
-└── scripts/                        # Compiled Papyrus (old system)
-    └── SLAL_MyAnimPack.pex
-```
-
-For conversion, we need the JSON definitions that come from the pack's animation definitions.
-
 ### What Gets Converted
 
-The converter extracts:
-- **Animation names and IDs** - Display name and unique identifier
+The converter automatically extracts:
+- **Animation names** - Display name and unique event hkx identifiers
 - **Gender/race tags** - Actor requirements (male, female, creature, etc.)
-- **Interaction types** - Vaginal, anal, oral, etc.
-- **Animation stages** - Which .hkx files play and timing
-- **Actor positions** - Offsets and rotations for each participant
 - **Creature info** - Race keys for creature animations
+- **Animation stages** - Which .hkx files play and timing/impact sound
+- **Actor offsets** - Offsets and rotations for each participant
+- **Scene parameters** - Stage timers, stage sound, etc.
 - **Tags/categories** - Aggressive, Loving, Foreplay, etc.
+- **AnimObjects info** - All AnimObjects are incorporated as-is for each animation event.
 
 ---
 
 ## Manual Adjustments
 
-After conversion, you may need to make manual adjustments to the JSON or compiled `.slr` files.
+After conversion, you may need to make manual adjustments to the slsb.json and re-compile the `.slr` files thrught the SLSB tool through `Import Project` option.
 
 ### Common Adjustments
 
@@ -156,71 +136,11 @@ Most conversions work automatically, but you may need to adjust for:
 ### Testing Adjustments
 
 After editing JSON:
-1. Re-run the converter to compile updated JSON
-2. Install the new `.slr` file
-3. Launch game and verify animations appear correctly
-4. Test with MatchMaker or console commands
-
----
-
-## Creature Animations
-
-Creature animation conversions require additional metadata for proper race matching.
-
-### Creature Animation JSON Structure
-
-```json
-{
-  "name": "Creature Animation Name",
-  "id": "creature_anim_id",
-  "tags": ["Aggressive", "Creature"],
-  "actors": [
-    {
-      "gender": "female",
-      "race": "human"
-    },
-    {
-      "gender": "creature",
-      "race": "Wolf",
-      "race_key": "Wolves"
-    }
-  ],
-  "stages": [...]
-}
-```
-
-### Common Race Keys
-
-When adding creature actors, use the correct `race_key`:
-
-| Race | race_key | Examples |
-|------|----------|----------|
-| Canines | `Wolves` | Wolves, Dogs, Huskies |
-| Bears | `Bears` | Black Bears, Cave Bears |
-| Trolls | `Trolls` | Trolls, Ice Trolls |
-| Giants | `Giants` | Giants |
-| Spiders | `Spiders` | Frostbite Spiders, Giant Spiders |
-| Draugr | `Draugrs` | Draugr, Draugr Lords |
-| Falmer | `Falmer` | Falmer, Falmer Gloomstalkers |
-| Dragons | `Dragons` | Dragons, Alduin |
-
-### Human + Creature Format
-
-For animations with both human and creature actors:
-
-```json
-"actors": [
-  {
-    "gender": "female",
-    "race": "human"        // Human doesn't need race_key
-  },
-  {
-    "gender": "creature",
-    "race": "Wolf",
-    "race_key": "Wolves"   // Creature needs both race and race_key
-  }
-]
-```
+1. Run the `SexLab Scene Builder.exe`.
+2. Import the edited JSON project file and export.
+2. Replace the generated `.slr` file with the one generated previously by converter.
+3. Install the modified conversion; launch game and verify animations appear correctly.
+4. Test with MatchMaker.s
 
 ---
 
@@ -230,14 +150,14 @@ For animations with both human and creature actors:
 
 Before testing in-game, verify your conversion:
 
-1. Check output folder has `.slr` files created
+1. Check output folder has the structure and content outlined in the section `Package Structure` below.
 2. Verify manifest shows no errors
 3. Ensure output files are not empty (check file size > 1KB)
 
 ### In-Game Testing
 
 1. Install the original SLAL pack (for mesh files)
-2. Install your converted `.slr` files in `Data/SKSE/Plugins/SexLabRegistry/`
+2. Install your converted SLSB conversion distribution
 3. Launch game and load a save
 4. Open SexLab MCM → Registrations
 5. Check if your animations appear in the list
@@ -287,14 +207,24 @@ For detailed debugging:
 ### Package Structure
 
 Your conversion package should contain:
+
 ```
-MyPack_SLSB_Conversion/
-└── Data/
-    └── SKSE/
-        └── Plugins/
-            └── SexLabRegistry/
-                └── MyPack.slr
+[SLSB Conversion]
+    ├───meshes
+    │     └───actors
+    │          └───[<actor>]
+    │               ├───animations
+    │               └───behaviors
+    └───SKSE
+          └───Sexlab
+                └───Registry
+                     └───Source
 ```
+
+1. An SLSB Project JSON in `SKSE/SexLab/Registry/Source/<PackName>.slsb.json`.
+2. A SexLab Registry SLR file in `SKSE/SexLab/Registry/<PackName>.slr`.
+3. An edited FNIS AnimList in `meshes/actors/<character>/animations/FNIS_<PackName>_List.txt`.
+4. Newly generated behaviour file in `meshes/actors/<character>/behaviors/FNIS_<PackName>_Behaviour.hkx`.
 
 ### Documentation
 

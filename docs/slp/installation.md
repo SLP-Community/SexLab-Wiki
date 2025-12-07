@@ -88,12 +88,14 @@ SexLab P+
 
 > **Note 2:** At the time of writing we are actively contacting SLAL pack authors to help them migrate/provide SLSB conversions.
 
+> **Note 3:** SLAL aniamtion pack and SLSB conversion versions should match exactly (for example, if you have Billyy 9.6, only use conversions made for Billyy 9.6) to avoid T-Poses.
+
 ### Step 5: Generate Behaviors
 
 Run your behavior generation tool:
 
-- **Nemesis + FNIS** - Recommended for stability, albeit more tedious
-- **Pandora** - Alternative option (has known issues with Draugrs/Skeletons and potentially ZAZ)
+- **Pandora** - Recommended. Use the latest stable version from Nexus.
+- **Nemesis + FNIS** - Usually preferred for stability, but it's more tedious.
 
 ### Step 6: Verify Installation
 
@@ -171,6 +173,7 @@ For advanced configuration of the enjoyment system, detection thresholds, and ot
 ### "Animations not playing"
 - Did you run behavior generation?
 - Are SLSB conversions installed and winning conflicts?
+- Do the versions of SLAL animation pack and the SLSB conversion match exactly?
 
 ### "CTD on scene start"
 - Verify Skyrim version compatibility

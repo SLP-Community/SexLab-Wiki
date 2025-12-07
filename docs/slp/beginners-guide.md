@@ -54,9 +54,9 @@ Animations are categorized using tags (e.g., "Aggressive", "Loving", "Oral"). Mo
 
 ### Enjoyment System
 P+ features a rebuilt enjoyment system that tracks actor pleasure during scenes based on:
-- Animation stage tags
 - Physics-based interaction detection
-- Individual actor preferences
+- Animation stage tags and position tags
+- Individual actor preferences and arousal
 
 ---
 
