@@ -1,0 +1,64 @@
+/* ============================================
+   Color Theme Overrides
+   ============================================ */
+
+:root {
+    --color-bg: rgb(0, 33, 64);
+    --color-bg-secondary: rgb(27, 61, 93);
+    --color-border: rgba(22, 119, 255, 0.3);
+    --color-text: rgba(255, 255, 255, 0.85);
+    --color-text-secondary: rgba(255, 255, 255, 0.65);
+    --color-link: #58a6ff;
+    --color-link-hover: #9ccaff;
+    --color-accent: #1677ff;
+    --color-accent-hover: #3d8eff;
+    --color-warning: #d29922;
+    --color-error: #f85149;
+    --color-success: #3fb950;
+    --note: var(--color-accent);
+}
+
+/* ============================================
+   Additional Customizations
+   ============================================ */
+
+/* Enhanced code blocks */
+code {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+pre {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Table hover effect */
+tr:hover {
+    background-color: rgba(22, 119, 255, 0.1);
+}
+
+/* Grid item hover effect */
+.grid-item:hover {
+    box-shadow: 0 4px 12px rgba(22, 119, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Blockquote styling */
+blockquote {
+    background: rgba(22, 119, 255, 0.15);
+    border-left-color: var(--color-link);
+}
+article a:hover {
+    color: var(--color-link-hover);
+}
+blockquote {
+    background: var(--note)
+}
+article a {
+    color: var(--color-link-hover);
+}
+article a:hover {
+    color: var(--color-text);
+}
+.highlighter-rouge {
+    color: var(--color-warning)
+}

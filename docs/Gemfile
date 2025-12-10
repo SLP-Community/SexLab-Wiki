@@ -4,3 +4,5 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-relative-links"
 gem "jekyll-seo-tag"
 gem "webrick" # Required for Ruby 3.0+
+gem "csv"
+gem "fiddle"

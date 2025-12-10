@@ -61,6 +61,11 @@ bundle install
 bundle exec jekyll serve
 ```
 
+Remove the cache while developing styling
+```bash
+bundle exec jekyll serve --livereload --force_polling
+```
+
 Then open `http://localhost:4000` in your browser.
 
 ## 📝 Contributing
