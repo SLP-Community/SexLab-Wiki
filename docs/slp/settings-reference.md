@@ -67,62 +67,63 @@ Settings controlling animation selection scoring. Animations are scored based on
 Boolean toggles to enable/disable specific creature races in animations. Set to `false` to prevent a race from being used in scenes.
 
 <details>
+
 <summary><strong>Click to expand full race list</strong></summary>
 
-    | Setting (Race) |
-    |----------------|
-    | `bAshHopper` — Ash Hopper |
-    | `bLurker` — Lurker |
-    | `bBear` — Bear |
-    | `bMammoth` — Mammoth |
-    | `bBoar` — Boar |
-    | `bMudcrab` — Mudcrab |
-    | `bBoarMounted` — Mounted Boar |
-    | `bNetch` — Netch |
-    | `bBoarSingle` — Single Boar |
-    | `bRiekling` — Riekling |
-    | `bCanine` — Canine (generic) |
-    | `bSabrecat` — Sabrecat |
-    | `bChaurus` — Chaurus |
-    | `bSeeker` — Seeker |
-    | `bChaurusHunter` — Chaurus Hunter |
-    | `bSkeever` — Skeever |
-    | `bChaurusReaper` — Chaurus Reaper |
-    | `bSlaughterfish` — Slaughterfish |
-    | `bChicken` — Chicken |
-    | `bSpider` — Spider |
-    | `bCow` — Cow |
-    | `bSpriggan` — Spriggan |
-    | `bDeer` — Deer |
-    | `bStormAtronach` — Storm Atronach |
-    | `bDog` — Dog |
-    | `bTroll` — Troll |
-    | `bDragon` — Dragon |
-    | `bVampireLord` — Vampire Lord |
-    | `bDragonPriest` — Dragon Priest |
-    | `bWerewolf` — Werewolf |
-    | `bDraugr` — Draugr |
-    | `bWisp` — Wisp |
-    | `bDwarvenBallista` — Dwarven Ballista |
-    | `bWispmother` — Wispmother |
-    | `bDwarvenCenturion` — Dwarven Centurion |
-    | `bWolf` — Wolf |
-    | `bDwarvenSphere` — Dwarven Sphere |
-    | `bDwarvenSpider` — Dwarven Spider |
-    | `bFalmer` — Falmer |
-    | `bFlameAtronach` — Flame Atronach |
-    | `bFox` — Fox |
-    | `bFrostAtronach` — Frost Atronach |
-    | `bGargoyle` — Gargoyle |
-    | `bGiant` — Giant |
-    | `bGiantSpider` — Giant Spider |
-    | `bGoat` — Goat |
-    | `bHagraven` — Hagraven |
-    | `bHare` — Hare |
-    | `bHorker` — Horker |
-    | `bHorse` — Horse |
-    | `bIceWraith` — Ice Wraith |
-    | `bLargeSpider` — Large Spider |
+| Setting (Race) |
+|----------------|
+| `bAshHopper` — Ash Hopper |
+| `bBear` — Bear |
+| `bBoar` — Boar |
+| `bBoarMounted` — Mounted Boar |
+| `bBoarSingle` — Single Boar |
+| `bCanine` — Canine (generic) |
+| `bChaurus` — Chaurus |
+| `bChaurusHunter` — Chaurus Hunter |
+| `bChaurusReaper` — Chaurus Reaper |
+| `bChicken` — Chicken |
+| `bCow` — Cow |
+| `bDeer` — Deer |
+| `bDog` — Dog |
+| `bDragon` — Dragon |
+| `bDragonPriest` — Dragon Priest |
+| `bDraugr` — Draugr |
+| `bDwarvenBallista` — Dwarven Ballista |
+| `bDwarvenCenturion` — Dwarven Centurion |
+| `bDwarvenSphere` — Dwarven Sphere |
+| `bDwarvenSpider` — Dwarven Spider |
+| `bFalmer` — Falmer |
+| `bFlameAtronach` — Flame Atronach |
+| `bFox` — Fox |
+| `bFrostAtronach` — Frost Atronach |
+| `bGargoyle` — Gargoyle |
+| `bGiant` — Giant |
+| `bGiantSpider` — Giant Spider |
+| `bGoat` — Goat |
+| `bHagraven` — Hagraven |
+| `bHare` — Hare |
+| `bHorker` — Horker |
+| `bHorse` — Horse |
+| `bIceWraith` — Ice Wraith |
+| `bLargeSpider` — Large Spider |
+| `bLurker` — Lurker |
+| `bMammoth` — Mammoth |
+| `bMudcrab` — Mudcrab |
+| `bNetch` — Netch |
+| `bRiekling` — Riekling |
+| `bSabrecat` — Sabrecat |
+| `bSeeker` — Seeker |
+| `bSkeever` — Skeever |
+| `bSlaughterfish` — Slaughterfish |
+| `bSpider` — Spider |
+| `bSpriggan` — Spriggan |
+| `bStormAtronach` — Storm Atronach |
+| `bTroll` — Troll |
+| `bVampireLord` — Vampire Lord |
+| `bWerewolf` — Werewolf |
+| `bWisp` — Wisp |
+| `bWispmother` — Wispmother |
+| `bWolf` — Wolf |
 
 </details>
 
