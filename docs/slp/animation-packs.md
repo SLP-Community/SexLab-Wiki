@@ -58,7 +58,7 @@ BabyImpala has converted most popular SLAL packs. Below is the current list of t
 | Billyy | 9.7 | [LoversLab](https://www.loverslab.com/files/file/3999-billyy) |
 | Billyy_Original | 1.2 | [LoversLab](https://www.loverslab.com/files/file/3999-billyy) |
 | Bottlefield | 1.2.1 | [LoversLab](https://www.loverslab.com/files/file/31075-bottlefield) |
-| BPAnimation | 1.0.0 | [LoversLab](https://www.loverslab.com/files/file/41639-bpanimation) |
+| BPAnimation | 1.0.1 | [LoversLab](https://www.loverslab.com/files/file/41639-bpanimation) |
 | CobaltSE | 1.4.3 | [LoversLab](https://www.loverslab.com/files/file/10707-cobalt) |
 | Devious Devices NG | 0.2.9+ | [LoversLab](https://www.loverslab.com/files/file/29779-devious-devices-ng/) |
 | DF Spank | 2021/03/31 | [LoversLab](https://www.loverslab.com/files/file/11732-devious-followers) |
@@ -70,7 +70,7 @@ BabyImpala has converted most popular SLAL packs. Below is the current list of t
 | Pack | Version | Link |
 |------|---------|------|
 | EstrusChaurus+ | 4.390 | [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/12832) + [LoversLab](https://www.loverslab.com/files/file/1033-estrus-chaurus/]) (for scripts)|
-| Flufyfox | 04/03/2025 | [LoversLab](https://www.loverslab.com/files/file/19463-flufyfox) |
+| Flufyfox | 24/12/2025 | [LoversLab](https://www.loverslab.com/files/file/19463-flufyfox) |
 | FunnyBizness | 12.0Rev1 | [LoversLab](https://www.loverslab.com/files/file/5716-funnybizness) |
 | GunSlicer | 03/13/23, 02/12/23 | [LoversLab](https://www.loverslab.com/files/file/8148-gsposes) |
 | HornyCreatures | 2.4 | [LoversLab](https://www.loverslab.com/files/file/5465-horny-creatures) |
@@ -91,7 +91,7 @@ BabyImpala has converted most popular SLAL packs. Below is the current list of t
 | MoreNastyCritters | 16 | [LoversLab](https://www.loverslab.com/files/file/5464-mnc) |
 | NakedDefeat's SLALs | 1.0, 0.3 | [LoversLab](https://www.loverslab.com/files/file/17888-naked-defeat/) (GoldenShowers, ForcedForeplay) |
 | Nazonootoko | 18/03/2025 | [LoversLab](https://www.loverslab.com/files/file/3765-nazonootokos) |
-| NCK30 | 4.7 | [Discord](https://www.discord.com/invite/6zNpqsX6AP) |
+| NCK30 | 4.8 | [Discord](https://www.discord.com/invite/6zNpqsX6AP) |
 | NewTF (TittyFuck) | 2022/09/13 | [Arca](https://arca.live/b/tullius/58552317) |
 | Nibbles | 5.82 | [LoversLab](https://www.loverslab.com/topic/97964-nibbles/?do=findComment&comment=3823767) |
 | NightBloomingViolet | 1.5b | [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/135699) |
