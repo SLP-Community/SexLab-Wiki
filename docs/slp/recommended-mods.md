@@ -98,6 +98,7 @@ These mods are **built into** SexLab P+ and should NOT be installed:
 | [SLU+ Utilities](https://www.loverslab.com/files/file/10316-osmelmc-mod-tweaks/) | Tries to achieve a similar goal |
 
 > **Note:** A dummy(empty) SLSO.esp can be used incase of mod "master" requirements
+
 > **Note:** SLU+ Utilities **WILL** break scene setup, do not use with SLP+
 
 ---

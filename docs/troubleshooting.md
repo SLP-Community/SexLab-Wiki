@@ -29,7 +29,7 @@ Common issues and their solutions for SexLab P+.
    - Use Pandore or Nemesis
    - Ensure it completes without errors
    - Ensure it is outputting to the desired folder
-   - If using Pandora ensure it is recognizing your desired animation packs in its **RIGHT**-side pannel
+   - If using Pandora ensure your desired animation packs are recognized in its **RIGHT**-side pannel
 
 4. **Check for file conflicts**
    - In MO2: Right-click P+ → Information → Conflicts
@@ -133,7 +133,7 @@ Common issues and their solutions for SexLab P+.
 
 1. **Terrain issues**
    - Move to flatter ground
-   - Sliding/floating actors can sometimes be fixed by increasing the fMinSetupTime in sexlab.ini
+   - Sliding/floating actors can sometimes be fixed by increasing the fMinSetupTime in `sexlab.ini`
    
 2. **Furniture conflicts**
    - Move away from furniture/objects

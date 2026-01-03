@@ -73,7 +73,7 @@ Download from one of these sources:
 1. Install the **SLAL packs** you want (but NOT the SLAL loader itself)
 2. Download the `Automated.SLSB.Conversions` package
 3. Install the conversions, letting them overwrite the SLAL packs
-4. Optional: If using any SLSB stand-alone conversions, skip this pack in the automated installer, and let the stand-alone SLSB win any conflicts.
+4. Optional: If using any SLSB stand-alone conversions - skip this pack in the automated installer and let the stand-alone SLSB win any conflicts.
 
 Your mod order should look something like this:
 
