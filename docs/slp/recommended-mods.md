@@ -64,6 +64,8 @@ Mods that work well with SexLab P+ to enhance your experience.
 | [More Informative Console](https://www.nexusmods.com/skyrimspecialedition/mods/19250) | Helps with debugging |
 | [SSE Engine Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/17230) | Essential bug fixes |
 | [Bug Fixes SSE](https://www.nexusmods.com/skyrimspecialedition/mods/33261) | Additional fixes |
+| [Heels Fix](https://www.nexusmods.com/skyrimspecialedition/mods/64442) | Replacement/upgrade for Racemenu High Heels(Height Fixes) |
+| [SexLab P+ - HeelsFix Integration](https://www.nexusmods.com/skyrimspecialedition/mods/155551) | Seamless integration between SexLab and HeelsFix |
 
 ---
 
@@ -94,6 +96,10 @@ These mods are **built into** SexLab P+ and should NOT be installed:
 | [SLGP - Grass Patch](https://www.loverslab.com/files/file/25455-slgp-sexlab-grass-patch/) | Fixed natively in P+ |
 | [SL Smooth Expressions](https://www.loverslab.com/files/file/31585-sexlab-smooth-expressions/) | Built into P+ |
 | [SLU+ Utilities](https://www.loverslab.com/files/file/10316-osmelmc-mod-tweaks/) | Tries to achieve a similar goal |
+
+> **Note:** A dummy(empty) SLSO.esp can be used incase of mod "master" requirements
+
+> **Note:** SLU+ Utilities **WILL** break scene setup, do not use with SLP+
 
 ---
 

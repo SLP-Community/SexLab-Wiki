@@ -26,6 +26,8 @@ If you're familiar with the original SexLab Framework, P+ is a drop-in replaceme
 | **All-in-One** | Built-in features replace SLSO, SLAS, SLGP, and other addon mods |
 | **Modern Foundation** | Uses SLSB instead of SLAL for faster, more reliable animation loading |
 
+> **Note:Unlimited Animations** Skyrim's Havok animation limit of 65,534 (20k base + pandora + OAR) still applies.
+
 ---
 
 ## Choose Your Path

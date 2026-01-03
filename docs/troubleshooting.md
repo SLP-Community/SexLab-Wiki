@@ -28,6 +28,8 @@ Common issues and their solutions for SexLab P+.
 3. **Run behavior generation**
    - Use Pandore or Nemesis
    - Ensure it completes without errors
+   - Ensure it is outputting to the desired folder
+   - If using Pandora ensure your desired animation packs are recognized in its **RIGHT**-side pannel
 
 4. **Check for file conflicts**
    - In MO2: Right-click P+ → Information → Conflicts
@@ -49,6 +51,9 @@ Common issues and their solutions for SexLab P+.
    - Launch through SKSE loader
    - Check SKSE version matches Skyrim version
 
+4. **Verify your SL versions**
+   - verify the correct SL & SLP+ versions are installed
+
 ### CTD on Scene Start
 
 **Symptoms:** Crash to desktop when a scene tries to start.
@@ -66,8 +71,8 @@ Common issues and their solutions for SexLab P+.
    - Remove recently added mods and test
 
 4. **Reduce animation count**
-   - Total animation count should not exceed skyrim's engine limit
-   - Include both OAR and FNIS/Pandora registered animations in the count
+   - Total animation count should not exceed skyrim's engine limit of 65,534 (2^16-2)
+   - Include the default (20k), OAR, and FNIS/Pandora registered animations in your count
 
 ---
 
@@ -102,9 +107,23 @@ Common issues and their solutions for SexLab P+.
 2. **Filter settings**
    - Check MCM animation filter settings
    - Check filter settings in `SexLab.ini`
+   - Filter settings are defined in [Settings Reference](slp/settings-reference/)
    
 3. **Mod conflict**
    - Another mod may be overriding selection
+
+### T-Pose During Scenes
+
+**Symptoms:** Actors T-pose during sexlab scenes.
+
+**Solutions:**
+
+1. **Check for version missmatch**
+   - SLAL & SLSB versions must match **EXACTLY**
+   - The only exception to this is ZAZ8.0+, which can use the ZAZ7.0+ SLSB conversion
+   
+2. **same as Animations not appearing**
+   - Review the steps in *Animations not Appearing*
 
 ### Actors in Wrong Positions
 
@@ -114,12 +133,39 @@ Common issues and their solutions for SexLab P+.
 
 1. **Terrain issues**
    - Move to flatter ground
+   - Sliding/floating actors can sometimes be fixed by increasing the fMinSetupTime in `sexlab.ini`
    
 2. **Furniture conflicts**
    - Move away from furniture/objects
    
 3. **Animation offset issues**
    - Some animations have incorrect offsets
+   - Offsets can be adjusted in the scene menu and are persistent between saves
+
+### Overlays not Applying
+
+**Symptoms:** Overlays (such as cum fx) are not applying post scene
+
+**Solutions:**
+
+1. **Should the overly be applied?**
+   - Verify the actor(s) that would apply the overlay are actually reaching their required condition  
+   - Ensure all other conditions are otherwise being met 
+
+2. **Is the Actor reaching climax?**
+   - If using separate orgasm mode ensure the required actor is reaching climax 
+
+### NPCs Flying After Scene Ends
+
+**Symptoms:** Flying/floating NPC's or "helicopter legs" after scenes end
+
+**Solutions:**
+
+1. **Heels fix**
+   - Heelsfix & P+ Integration by MissC - [Recommended Mods](slp/recommended-mods/)
+
+2. **SSE Engine Fixes**
+   - SSE Engine Fixes - [Recommended Mods](slp/recommended-mods/)
 
 ---
 
@@ -202,10 +248,16 @@ bEnableProfiling=1
 bLoadDebugInformation=0
 ```
 
-### Log Location
+### Papyrus Log Location
 
 ```
 Documents\My Games\Skyrim Special Edition\Logs\Script\Papyrus.0.log
+```
+
+### Sexlab Log Location
+
+```
+Documents\My Games\Skyrim Special Edition\SKSE\SexLabUtil.log
 ```
 
 ---

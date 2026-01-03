@@ -52,6 +52,8 @@ These mods should **not be installed** because their functionality is built into
 | [SexLab Separate Orgasm (SLSO)](https://www.loverslab.com/files/file/5929-sexlab-separate-orgasm-se/) | Redundant - built into P+ |
 | [SL Smooth Expressions](https://www.loverslab.com/files/file/31585-sexlab-smooth-expressions/) | Redundant - built into P+ |
 
+> **Note:** SL Utilities+ **WILL** break scene setup, do not use with SLP+
+
 ---
 
 ## Partially Compatible
@@ -89,6 +91,8 @@ P+ has **no animation limit** by default. However, mods using the legacy `sslBas
 - 2000 animations total
 
 This affects older mods that haven't updated to the new API.
+
+> **Note:** Skyrim's Havok animation limit of 65,534 (20k base + pandora + OAR) still applies.
 
 ---
 
@@ -129,9 +133,14 @@ bEnableProfiling=1
 bLoadDebugInformation=0
 ```
 
-Logs will appear in:
+Papyrus Logs will appear in:
 ```
 Documents\My Games\Skyrim Special Edition\Logs\Script\
+```
+
+Sexlab Logs will appear in:
+```
+Documents\My Games\Skyrim Special Edition\SKSE\
 ```
 
 ---

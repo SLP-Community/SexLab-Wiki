@@ -44,6 +44,7 @@ Install these before SexLab P+:
 | [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604) | For MCM menus |
 | [Mfg Fix NG](https://www.nexusmods.com/skyrimspecialedition/mods/133568) | Required for expressions |
 | [BEES](https://www.nexusmods.com/skyrimspecialedition/mods/106441) | Only if on 1.6.640 or lower |
+| [AnimSpeedSE](https://www.patreon.com/posts/103787087?utm_campaign=postshare_fan&utm_source=android) | To control animation speed |
 
 ---
 
@@ -72,6 +73,7 @@ Download from one of these sources:
 1. Install the **SLAL packs** you want (but NOT the SLAL loader itself)
 2. Download the `Automated.SLSB.Conversions` package
 3. Install the conversions, letting them overwrite the SLAL packs
+4. Optional: If using any SLSB stand-alone conversions - skip this pack in the automated installer and let the stand-alone SLSB win any conflicts.
 
 Your mod order should look something like this:
 
@@ -172,8 +174,9 @@ For advanced configuration of the enjoyment system, detection thresholds, and ot
 
 ### "Animations not playing"
 - Did you run behavior generation?
+- Is your behaviour generator putting files in the right place?
 - Are SLSB conversions installed and winning conflicts?
-- Do the versions of SLAL animation pack and the SLSB conversion match exactly?
+- Do the versions of SLAL animation pack and the SLSB conversion **match exactly**?
 
 ### "CTD on scene start"
 - Verify Skyrim version compatibility
@@ -182,6 +185,7 @@ For advanced configuration of the enjoyment system, detection thresholds, and ot
 
 ### "MCM not showing"
 - Is SkyUI installed?
+- Verify you have the correct version of SL & SLP+ installed
 - Wait a few minutes after loading for mods to initialize
 
 See [Troubleshooting](../../troubleshooting/) for more solutions.
