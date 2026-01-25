@@ -104,6 +104,18 @@ Already using the original SexLab Framework? See our comparison and migration gu
 
 ---
 
+## For Mod Authors
+
+<div class="grid-container">
+  <div class="grid-item">
+    <h3>Custom Fx Overlays and Voices</h3>
+    <p>Guide on how to create Fx Overlays & Voice profiles for SLP+</p>
+    <a href="slp/overlays-and-voices/">Overlays And Voices →</a>
+  </div>
+</div>
+
+---
+
 ## Community & Support
 
 - **LoversLab Page**: [SexLab P+](https://www.loverslab.com/files/file/25318-sexlab-p/)
