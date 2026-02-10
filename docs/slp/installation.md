@@ -44,7 +44,6 @@ Install these before SexLab P+:
 | [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604) | For MCM menus |
 | [Mfg Fix NG](https://www.nexusmods.com/skyrimspecialedition/mods/133568) | Required for expressions |
 | [BEES](https://www.nexusmods.com/skyrimspecialedition/mods/106441) | Only if on 1.6.640 or lower |
-| [AnimSpeedSE](https://www.patreon.com/posts/103787087?utm_campaign=postshare_fan&utm_source=android) | To control animation speed |
 
 ---
 
