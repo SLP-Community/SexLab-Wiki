@@ -52,7 +52,6 @@ These mods should **not be installed** because their functionality is built into
 | [SexLab sslAnimationSlots 3000](https://www.loverslab.com/files/file/15102-sexlab-sslanimationslots-3000-se-vr-ae/) | Redundant - fixed natively |
 | [SLACS Plus - SexLab Advanced Cum Stages](https://www.loverslab.com/files/file/16677-slacs-plus-sexlab-advanced-cum-stages/) | Redundant - built into P+ |
 | [SexLab Separate Orgasm (SLSO)](https://www.loverslab.com/files/file/5929-sexlab-separate-orgasm-se/) | Redundant - built into P+ |
-| [AnimSpeedSE](https://www.patreon.com/posts/103787087?utm_campaign=postshare_fan&utm_source=android) | Redundant - built into P+ |
 | [SL Smooth Expressions](https://www.loverslab.com/files/file/31585-sexlab-smooth-expressions/) | Redundant - built into P+ |
 | [Sexlab Scaler SE](https://www.loverslab.com/topic/247595-sexlab-scaler-se-english/) | Redundant - built into P+ |
 
