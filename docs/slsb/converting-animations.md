@@ -136,11 +136,12 @@ Most conversions work automatically, but you may need to adjust for:
 ### Testing Adjustments
 
 After editing JSON:
-1. Run the `SexLab Scene Builder.exe`.
-2. Import the edited JSON project file and export.
-2. Replace the generated `.slr` file with the one generated previously by converter.
-3. Install the modified conversion; launch game and verify animations appear correctly.
-4. Test with MatchMaker.s
+1. Download [Sexlab Scene Builder](https://discord.com/channels/906462751101177886/1063514401375780874/1335314789194534992) from the discord.
+2. Run the `SexLab Scene Builder.exe`.
+3. Import the edited JSON project file and export.
+4. Replace the generated `.slr` file with the one generated previously by converter.
+5. Install the modified conversion; launch game and verify animations appear correctly.
+6. Test with MatchMaker.
 
 ---
 
