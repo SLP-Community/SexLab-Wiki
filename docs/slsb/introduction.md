@@ -72,7 +72,7 @@ Source (development):
 
 Distributed to users:
 Data/
-└── SKSE/Plugins/SexLabRegistry/
+└── SKSE/SexLab/Registry/
     └── MyAnimPack.slr           # Compiled registry file
 ```
 
@@ -95,13 +95,15 @@ See [Animation Packs](../../slp/animation-packs/) for available packs.
 
 If you want to create or convert animation packs:
 
-1. [SLAL vs SLSB](../slal-vs-slsb/) - Understand the differences
-2. [Converting Animations](../converting-animations/) - Convert existing SLAL packs
-3. [Environment Setup](../environment-setup/) - Set up your development tools
+1. [SLAL vs SLSB](../slal-vs-slsb/) — Understand the differences
+2. [Environment Setup](../environment-setup/) — Set up your development tools
+3. [Creating Packs with SLSB](../creating-packs-using-slsb/) — Author new packs in the Scene Builder UI
+4. [Converting Animations](../converting-animations/) — Convert existing SLAL packs
 
 ---
 
 ## Resources
 
-- **Discord**: [Join for support](https://discord.gg/JPSHb4ebqj) - #slsb-and-pack-dev channel
+- **Discord**: [Join for support](https://discord.gg/JPSHb4ebqj) — #slsb-and-pack-dev channel
 - **GitHub**: [SexLab Source](https://github.com/Scrabx3/SexLab)
+- **Tool tutorial**: [Creating Packs with SLSB](../creating-packs-using-slsb/)

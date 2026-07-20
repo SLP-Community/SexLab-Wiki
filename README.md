@@ -24,6 +24,7 @@ Visit the live site: **[https://slp-community.github.io/SexLab-Wiki/](https://sl
 - SLAL vs SLSB
 - Converting Animations
 - Environment Setup
+- Creating Packs with SLSB
 
 ### Resources
 - Troubleshooting

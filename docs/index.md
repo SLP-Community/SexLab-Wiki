@@ -96,6 +96,12 @@ Already using the original SexLab Framework? See our comparison and migration gu
   </div>
   
   <div class="grid-item">
+    <h3>Creating Packs with SLSB</h3>
+    <p>Author new animation packs in the official Scene Builder UI — scenes, stages, tags, and export.</p>
+    <a href="slsb/creating-packs-using-slsb/">Tool Tutorial →</a>
+  </div>
+  
+  <div class="grid-item">
     <h3>Converting SLAL Packs</h3>
     <p>Step-by-step guide to convert your SLAL packs to SLSB format.</p>
     <a href="slsb/converting-animations/">Conversion Guide →</a>

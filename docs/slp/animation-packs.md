@@ -139,6 +139,7 @@ If your favorite pack isn't converted yet:
 
 Want to create or convert packs? See the [SLSB documentation](../../slsb/introduction/):
 
+- [Creating Packs with SLSB](../../slsb/creating-packs-using-slsb/)
 - [Converting Animations](../../slsb/converting-animations/)
 - [SLAL vs SLSB](../../slsb/slal-vs-slsb/)
 - [Environment Setup](../../slsb/environment-setup/)

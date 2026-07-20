@@ -1,11 +1,13 @@
 /* ============================================
-   Color Theme Overrides
+   SLSB-aligned color theme
+   Matches SexLab Scene Builder's dark palette:
+   navy backgrounds + Ant Design blue accent
    ============================================ */
 
 :root {
     --color-bg: rgb(0, 33, 64);
     --color-bg-secondary: rgb(27, 61, 93);
-    --color-border: rgba(22, 119, 255, 0.3);
+    --color-border: rgba(22, 119, 255, 0.28);
     --color-text: rgba(255, 255, 255, 0.85);
     --color-text-secondary: rgba(255, 255, 255, 0.65);
     --color-link: #58a6ff;
@@ -15,14 +17,14 @@
     --color-warning: #d29922;
     --color-error: #f85149;
     --color-success: #3fb950;
-    --note: var(--color-accent);
+    --note-bg: rgba(22, 119, 255, 0.12);
+    --warning-bg: rgba(210, 153, 34, 0.12);
 }
 
 /* ============================================
    Additional Customizations
    ============================================ */
 
-/* Enhanced code blocks */
 code {
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -31,34 +33,58 @@ pre {
     background: rgba(0, 0, 0, 0.3);
 }
 
-/* Table hover effect */
 tr:hover {
     background-color: rgba(22, 119, 255, 0.1);
 }
 
-/* Grid item hover effect */
 .grid-item:hover {
-    box-shadow: 0 4px 12px rgba(22, 119, 255, 0.3);
+    box-shadow: 0 4px 12px rgba(22, 119, 255, 0.25);
     transform: translateY(-2px);
 }
 
-/* Blockquote styling */
+/* Soft tinted notes — not solid accent fill */
 blockquote {
-    background: rgba(22, 119, 255, 0.15);
-    border-left-color: var(--color-link);
+    background: var(--note-bg);
+    border-left-color: var(--color-accent);
 }
-article a:hover {
-    color: var(--color-link-hover);
-}
-blockquote {
-    background: var(--note)
-}
+
 article a {
+    color: var(--color-link);
+}
+
+article a:hover {
     color: var(--color-link-hover);
 }
-article a:hover {
-    color: var(--color-text);
-}
+
 .highlighter-rouge {
-    color: var(--color-warning)
+    color: var(--color-warning);
+}
+
+/* Align callout chrome with accent / semantic colors */
+.note {
+    border-left-color: var(--color-accent);
+    background: var(--note-bg);
+}
+
+.note::before {
+    color: var(--color-accent);
+}
+
+.warning {
+    border-left-color: var(--color-warning);
+    background: var(--warning-bg);
+}
+
+.warning::before {
+    color: var(--color-warning);
+}
+
+/* Sidebar active feel on hover matches SLSB bright-blue */
+.main-nav a:hover {
+    background: rgba(22, 119, 255, 0.15);
+    color: var(--color-link-hover);
+}
+
+header h1 a:hover {
+    color: var(--color-accent);
 }
