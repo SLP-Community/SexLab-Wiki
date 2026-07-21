@@ -90,7 +90,7 @@ SexLab P+
 
 > **Note 2:** At the time of writing we are actively contacting SLAL pack authors to help them migrate/provide SLSB conversions.
 
-> **Note 3:** SLAL aniamtion pack and SLSB conversion versions should match exactly (for example, if you have Billyy 9.6, only use conversions made for Billyy 9.6) to avoid T-Poses.
+> **Note 3:** SLAL animation pack and SLSB conversion versions should match exactly (for example, if you have Billyy 9.6, only use conversions made for Billyy 9.6) to avoid T-Poses.
 
 ### Step 5: Generate Behaviors
 
@@ -156,6 +156,8 @@ This includes body mods (CBBE 3BA, HIMBO, The New Gentleman) and other complemen
 2. Wait for all mods to initialize
 3. Open MCM and find SexLab
 4. Configure settings as desired
+
+> **Note:** Version 2.17.1 shows ❌ for RaceMenu. This is a known display bug that won’t cause issues.
 
 ### Settings
 
