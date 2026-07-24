@@ -19,7 +19,7 @@ Common issues and their solutions for SexLab P+.
 **Solutions:**
 
 1. **Check SLSB files are installed**
-   - Verify JSON files exist in `Data/SKSE/Plugins/SexLabRegistry/`
+   - Verify JSON files exist in `Data/SKSE/Plugins/SexLab/Registry/`
    
 2. **Verify load order**
    - SLSB conversions must overwrite SLAL packs

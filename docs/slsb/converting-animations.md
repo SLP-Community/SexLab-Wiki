@@ -181,7 +181,7 @@ If animations don't appear:
 |-------|-------|
 | `.slr` file not created | Verify SLAL_Packs folder structure |
 | Manifest shows errors | Check FNIS tools are installed |
-| No animations in MCM | Verify `Data/SKSE/Plugins/SexLabRegistry/` path |
+| No animations in MCM | Verify `Data/SKSE/Plugins/SexLab/Registry/` path |
 | Animations crash | Check actor/creature count matches animation |
 | Wrong animation plays | Verify JSON wasn't manually edited incorrectly |
 

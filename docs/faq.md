@@ -60,7 +60,9 @@ These are built into P+ and should NOT be installed separately:
 
 ### Can I use my existing saves?
 
-You can, but testing on a new save first is recommended. Some issues only appear on existing saves.
+Only if no prior version of base SexLab has ever be run on the save, otherwise a new save *must* be used when upgrading to SLP+.
+
+Testing on a new save first is still recommended as some issues only appear on existing saves.
 
 ---
 
@@ -168,7 +170,7 @@ Yes, SLSB allows more detailed tagging including per-stage and per-position tags
 
 ### Why aren't my animations loading?
 
-1. Check `.slr` files are in `Data/SKSE/Plugins/SexLabRegistry/`
+1. Check `.slr` files are in `Data/SKSE/Plugins/SexLab/Registry/`
 2. Verify conversions with **matching versions** are installed and winning conflicts
 3. Make sure you ran behavior generation
 
@@ -225,7 +227,7 @@ See the [Settings Reference](/slp/settings-reference/) for details on SexLab.ini
 
 ### Where are animation definitions?
 
-`Data\SKSE\Plugins\SexLabRegistry\` (as `.slr` files)
+`Data\SKSE\Plugins\SexLab\Registry\` (as `.slr` files)
 
 ### Is P+ open source?
 
